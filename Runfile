@@ -1,0 +1,7 @@
+name    "Sinatra"
+summary "Scaffolding for sinatra apps"
+
+help   "Start the server"
+action :server, :s do
+  run 'ruby server.rb'
+end
