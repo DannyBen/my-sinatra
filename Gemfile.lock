@@ -13,6 +13,7 @@ GEM
     runfile (0.8.0)
       colsole (~> 0.3)
       docopt (~> 0.5)
+    sass (3.4.22)
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -35,6 +36,7 @@ PLATFORMS
 
 DEPENDENCIES
   runfile
+  sass
   sinatra
   sinatra-contrib
   slim

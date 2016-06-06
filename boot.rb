@@ -2,7 +2,7 @@ require 'sinatra'
 require "sinatra/reloader"
 require 'sass/plugin/rack'
 
-Sass::Plugin.options[:style] = :compressed
+# Sass::Plugin.options[:style] = :compressed
 Sass::Plugin.options[:template_location] = 'styles'
 Sass::Plugin.options[:css_location] = 'public/css'
 
