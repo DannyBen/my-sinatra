@@ -1,5 +1,5 @@
 require 'sinatra'
-require './boot'
+require_relative 'lib/boot'
 
 get '/' do
   slim :index, locals: { message: 'Fairly Local' }
