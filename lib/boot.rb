@@ -13,12 +13,15 @@ require 'sass/plugin/rack'
 # require_all "#{dir}/models/**/*.rb"
 # require_all "#{dir}/lib/**/*.rb"
 
-# Configure Sinatra
+# Configure Sass
 # Sass::Plugin.options[:style] = :compressed
 Sass::Plugin.options[:template_location] = 'styles'
 Sass::Plugin.options[:css_location] = 'public/css'
-
 use Sass::Plugin::Rack
 
+# Configure Slim
+Slim::Engine.set_options pretty: true
+
+# Configure Sinatra
 set :bind, '0.0.0.0'
 set :port, 3000
