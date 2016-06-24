@@ -9,9 +9,12 @@ require "sinatra/reloader"
 require 'sass/plugin/rack'
 
 # Require my stuff
-# dir = "#{File.dirname(__FILE__)}/.."
+dir = "#{File.dirname(__FILE__)}/.."
+require_all "#{dir}/lib/**/*.rb"
 # require_all "#{dir}/models/**/*.rb"
-# require_all "#{dir}/lib/**/*.rb"
+
+# Reloader config
+also_reload "#{dir}/lib/**/*.rb"
 
 # Configure Sass
 # Sass::Plugin.options[:style] = :compressed
