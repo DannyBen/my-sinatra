@@ -10,8 +10,9 @@ In the Box
 - [Runfile]
 - Slim
 - SCSS
+- CoffeeScript
 - Vagrant compatibility
-- Auto loading
+- Auto reloading
 - Interactive IRB Console
 
 
@@ -27,3 +28,4 @@ Usage
 ---
 
 [Runfile]: https://github.com/DannyBen/runfile
+

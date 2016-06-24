@@ -2,9 +2,12 @@
 source "https://rubygems.org"
 
 gem "runfile"
+gem "require_all"
+gem "awesome_print"
+
 gem "sinatra"
 gem "sinatra-contrib"
+
 gem "slim"
 gem "sass"
-gem "awesome_print"
-gem "require_all"
+gem "rack-coffee"

@@ -19,6 +19,9 @@ Sass::Plugin.options[:template_location] = 'styles'
 Sass::Plugin.options[:css_location] = 'public/css'
 use Sass::Plugin::Rack
 
+# Configure CoffeeScript
+use Rack::Coffee, urls: '/scripts' #, root: 'public', urls: '/js'
+
 # Configure Slim
 Slim::Engine.set_options pretty: true
 
