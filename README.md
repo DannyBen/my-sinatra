@@ -8,9 +8,11 @@ In the Box
 --------------------------------------------------
 
 - [Runfile]
+- Puma
 - Slim
 - SCSS
 - CoffeeScript
+- jQuery
 - Vagrant compatibility
 - Auto reloading
 - Interactive IRB Console

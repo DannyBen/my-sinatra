@@ -9,5 +9,6 @@ gem "sinatra"
 gem "sinatra-contrib"
 
 gem "slim"
+gem "puma"
 gem "sass"
 gem "rack-coffee"
