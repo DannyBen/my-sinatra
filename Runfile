@@ -1,4 +1,4 @@
-name    "My Sinatra Baseline"
+title   "My Sinatra Baseline"
 summary "A baseline for Sinatra apps"
 
 help   "Start the server"
