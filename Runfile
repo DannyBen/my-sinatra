@@ -1,9 +1,11 @@
 title   "My Sinatra Baseline"
 summary "A baseline for Sinatra apps"
 
+trap(:INT) { print "\r" ; exit }
+
 help   "Start the server"
 action :server, :s do
-  run 'ruby server.rb'
+  run 'rackup -p3000 -o0.0.0.0'
 end
 
 help   "Start an IRB console"

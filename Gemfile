@@ -1,14 +1,13 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem "runfile"
-gem "require_all"
+gem "runfile", require: false
 gem "awesome_print"
 
 gem "sinatra"
 gem "sinatra-contrib"
 
 gem "slim"
-gem "puma"
+gem "puma", require: false
 gem "sass"
 gem "rack-coffee"
