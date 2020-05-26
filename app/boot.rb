@@ -25,3 +25,4 @@ Slim::Engine.set_options pretty: true
 # Configure Sinatra
 set :bind, '0.0.0.0'
 set :port, 3000
+set :root, File.expand_path('..', __dir__)
